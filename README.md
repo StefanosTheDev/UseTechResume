@@ -23,6 +23,12 @@
 - User will log into their account. Drop Text inot a text box. It will get outputted by AI to fit their resume. We will probably have some questions prior as well for context to shape the System Level. Then if the user likes the output. They can copy that generation. and send it to their resume. If the User goes beyond an X Amount of Tokens. They will be informed that they have to enter the paid option moving forward.
 
 
+### 3rd Party API Involved:
+- OpenAI, Llama, Claude ... (OPENAI Is priority#1 for now)
+- Stripe
+- Google Auth API
+
+
 
 ### USER SCHEMA
 ```
