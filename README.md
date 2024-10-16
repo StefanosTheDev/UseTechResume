@@ -17,7 +17,11 @@
   - User Model:
     - FirstName, LastName, Username, Email, Password
 - Users will also have the ability to login with Username / Password.
-- Users will also have the ability to leverage Google Auth to login if Username / Password is not an option they wish to use. 
+- Users will also have the ability to leverage Google Auth to login if Username / Password is not an option they wish to use.
+  
+#### Opeartion Level: 
+- User will log into their account. Drop Text inot a text box. It will get outputted by AI to fit their resume. We will probably have some questions prior as well for context to shape the System Level. Then if the user likes the output. They can copy that generation. and send it to their resume. If the User goes beyond an X Amount of Tokens. They will be informed that they have to enter the paid option moving forward.
+
 
 
 ### USER SCHEMA
