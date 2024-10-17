@@ -2,7 +2,7 @@
 
 This looks like a solid start! Here’s a way to structure it further and expand on specific sections to make the plan even more comprehensive and actionable.
 
-Project Structure and Details
+###Project Structure and Details
 1. Project Goal
 Ensure this section is concise yet clear on the core objectives, as you have listed.
 You might add a brief line about why these goals (e.g., security and best practices) are critical to the industry standard.
@@ -13,15 +13,21 @@ Consider adding a sentence about the intended users (e.g., job seekers, professi
 Languages & Frameworks: Node.js, Mongoose, MongoDB, AWS
 Testing: Jest (for unit tests), Supertest (for API endpoint testing)
 Security: Implementing best practices in authentication, input validation, and API key handling
-4. Features of UseTechResume
+
+
+5. Features of UseTechResume
 Authentication Layer
 User Model Properties:
 FirstName, LastName, Username, Email, Password: Include validation requirements (e.g., password length, email format).
 Roles (optional): If you plan to have different user types (e.g., admin, regular user).
-Endpoints:
+
+
+##Endpoints:
+```
 POST /register - Create new user accounts.
 POST /login - User authentication and token generation.
 GET /profile - View user profile information.
+```
 Security: Implement JWT for session management and refresh tokens for extended sessions.
 Resume Text Transformation
 AI Integration:
@@ -35,7 +41,7 @@ Functionality:
 Allow users to view past transformed texts, potentially saving them for future reference.
 Endpoints:
 GET /history - Retrieve all previous transformations for the logged-in user.
-5. Project Phases and Milestones
+6. Project Phases and Milestones
 Breaking down the work into milestones will help track progress:
 
 Phase 1: Initial Setup
